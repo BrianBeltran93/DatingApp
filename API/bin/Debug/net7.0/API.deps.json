@@ -9,7 +9,8 @@
       "API/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
-          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11"
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11",
+          "System.IdentityModel.Tokens.Jwt": "7.0.1"
         },
         "runtime": {
           "API.dll": {}
@@ -156,6 +157,47 @@
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {},
+      "Microsoft.IdentityModel.Abstractions/7.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.40927"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/7.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "7.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.40927"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/7.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "7.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.40927"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/7.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "7.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.40927"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -328,6 +370,18 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/7.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "7.0.1",
+          "Microsoft.IdentityModel.Tokens": "7.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.40927"
+          }
+        }
+      },
       "System.Memory/4.5.3": {},
       "System.Text.Encodings.Web/7.0.0": {},
       "System.Text.Json/7.0.0": {
@@ -476,6 +530,34 @@
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
+    "Microsoft.IdentityModel.Abstractions/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wrvcg1kHDpDdmZymgpVJtmni3cLPo519WR8jOGuBfFbagdYzP+omgmmjbRBmiz7612+778AM013usryudF5S0A==",
+      "path": "microsoft.identitymodel.abstractions/7.0.1",
+      "hashPath": "microsoft.identitymodel.abstractions.7.0.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MgogVtrHWTqdg6zfoqQ98yDQSVNItWHQXO8B9rFmlP3s3+Q0jHxeil5aUh9op3jrHap89s+oZEonv97dBYEu7A==",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.0.1",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.7.0.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FOAOE2+vJbd4jfVZMxfCjyxluVvKk7tQOy252GDIPBGMSinnVRj7VgZO1MsKTcOO83IIZaQTXd9MnXWflcJmsg==",
+      "path": "microsoft.identitymodel.logging/7.0.1",
+      "hashPath": "microsoft.identitymodel.logging.7.0.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MTG7GuZpvLm/grwe2s82+QyNlZjIRvbEWlk+gcxauuLfZxdugltXIbZCJw41WPdzTXnVdSOXAhHUYtOmf61PhA==",
+      "path": "microsoft.identitymodel.tokens/7.0.1",
+      "hashPath": "microsoft.identitymodel.tokens.7.0.1.nupkg.sha512"
+    },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
       "serviceable": true,
@@ -517,6 +599,13 @@
       "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "path": "system.codedom/4.4.0",
       "hashPath": "system.codedom.4.4.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tPd5xKBuq7JW37Lhb6izkJ6bpPZFX3Jf2DSmBBBsdfVhdWXbpArhkowoDXZ+UXxGguFM45nwlnRyIoKbz7Ngvg==",
+      "path": "system.identitymodel.tokens.jwt/7.0.1",
+      "hashPath": "system.identitymodel.tokens.jwt.7.0.1.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",

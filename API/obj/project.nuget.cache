@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TJlHtd2SdPCPZs8fAvRd0p87TQNGFAKmed+GyFxPMNVtrV/LtYRuL8VrpANgyz73ieDGauPqQPunuKUl2zjjTg==",
+  "dgSpecHash": "h5jH2euCLlxO15odjcu+zoEtXtfxHZ8M0z6cOjop3fvMDOBu49xFTiD8TxMP942LVrt6TmG6HR0uYFOfcIOCtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\BBelt\\source\\repos\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BBelt\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
@@ -26,6 +27,8 @@
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.1\\microsoft.identitymodel.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.1\\microsoft.identitymodel.jsonwebtokens.7.0.1.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.1\\microsoft.identitymodel.logging.7.0.1.nupkg.sha512",
+    "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.1\\microsoft.identitymodel.tokens.7.0.1.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\BBelt\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",

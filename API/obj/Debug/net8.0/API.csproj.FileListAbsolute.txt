@@ -121,3 +121,9 @@ C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\runtimes\win-x6
 C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\BBelt\Projects\DatingApp\DatingApp\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 C:\Users\BBelt\Projects\DatingApp\DatingApp\API\obj\Debug\net8.0\API.csproj.Up2Date
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\BBelt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BBelt\\AppData\\Roaming\\NuGet\\NuGet.Config"

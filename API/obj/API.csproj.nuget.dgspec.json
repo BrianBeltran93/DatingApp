@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj": {}
+    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj": {
+    "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\API.csproj",
+        "projectPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\BBelt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\api\\obj\\",
+        "outputPath": "C:\\Users\\BBelt\\Projects\\DatingApp\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BBelt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

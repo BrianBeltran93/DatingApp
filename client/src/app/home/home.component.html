@@ -12,7 +12,10 @@
             <div class="containter">
                 <div class="row justify-center">
                     <div class="col-4">
-                        <app-register [usersFromHomeComponent]="users"></app-register>
+                        <app-register 
+                            [usersFromHomeComponent]="users"
+                            (cancelRegister)="cancelRegisterMode($event)">
+                        </app-register>
                     </div>
                 </div>
             </div>

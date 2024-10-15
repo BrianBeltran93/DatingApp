@@ -29,6 +29,7 @@ public class BuggyController(DataContext context) : BaseApiController
     public ActionResult<AppUser> GetServerError()
     {
         var thing = context.Users.Find(-1) ?? throw new Exception("A bad thing has happened");
+        
         return thing;
     }
 

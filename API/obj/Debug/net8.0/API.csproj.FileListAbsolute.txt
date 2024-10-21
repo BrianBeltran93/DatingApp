@@ -130,3 +130,4 @@ C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\System.Identity
 C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\api\bin\Debug\net8.0\Data\UserSeedData.json

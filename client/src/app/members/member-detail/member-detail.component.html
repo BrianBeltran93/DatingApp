@@ -49,6 +49,8 @@
                     @if (photoTab.active) {
                         <gallery 
                             [items]="images" 
+                            [itemAutosize]="true"
+                            [thumbs]="true"
                             class="gallery"
                         ></gallery>
                     }

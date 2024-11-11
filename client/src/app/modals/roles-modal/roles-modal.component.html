@@ -5,12 +5,20 @@
     </button>
 </div>
 <div class="modal-body">
-    <ul>
-        @for (item of list; track $index) {
-            <li>{{item}}</li>
-        }
-    </ul>
+    @for (role of availableRoles; track $index) {
+        <div class="form-check">
+            <input 
+                type="checkbox"
+                class="form-check-input"
+                [checked]="selectedRoles.includes(role)"
+                value="role"
+                (change)="updateChecked(role)"
+                [disabled]="role === 'Admin' && username === 'admin'"
+            >
+            <label>{{role}}</label>
+        </div>
+    }
 </div>
 <div class="modal-footer">
-    <button type="button" class="btn btn-default" (click)="bsModalRef.hide()">Close</button>
+    <button [disabled]="selectedRoles.length === 0" type="button" class="btn btn-success" (click)="onSelectRoles()">Submit</button>
 </div>

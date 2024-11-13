@@ -55,8 +55,6 @@
             <tab heading="Messages" (selectTab)="onTabActivated($event)">
                 <app-member-messages 
                     [username]="member.username" 
-                    [messages]="messages"
-                    (updateMessages)="onUpdateMessages($event)"
                 ></app-member-messages>
             </tab>
         </tabset>

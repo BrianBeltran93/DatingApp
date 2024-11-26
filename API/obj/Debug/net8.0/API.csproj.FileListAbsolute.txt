@@ -145,3 +145,4 @@ C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\Microsoft.Exten
 C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\BBelt\Projects\DatingApp\DatingApp\API\bin\Debug\net8.0\API.staticwebassets.runtime.json
